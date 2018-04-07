@@ -1,0 +1,25 @@
+{
+  "name": "tradingdashboard",
+  "version": "1.0.0",
+  "description": "Trading dashboard to monitor company performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherhbianchi/TradingDashboard.git"
+  },
+  "author": "Christopher Bianchi, David Cash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopherhbianchi/TradingDashboard/issues"
+  },
+  "homepage": "https://github.com/christopherhbianchi/TradingDashboard#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13"
+  }
+}
