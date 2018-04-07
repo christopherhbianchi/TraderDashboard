@@ -27,6 +27,12 @@ module.exports = function(app){
             password:"pass3",
             email:"ljames@gmail.com",
             userType:"free"
+        },
+        {
+            username:"CaptainSparkles",
+            password:"pass4",
+            email:"CaptainSparklesIsCool@captainsparklesfanclub.com",
+            userType:"pro"
         }
         ];//pass in an array of user objects to seed the db, db populated with this
         Users.create(starterUsers, function(error, results){
